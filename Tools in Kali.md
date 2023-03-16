@@ -116,7 +116,7 @@ Is a testing technique that involves sending random or malformed data to a softw
 
 Web Application Analysis refers to all applications that are accessed through a browser. Security testing for your application is very important if data leaks or modifications are unacceptable and intolerable.
 
-**A.CMS (Content Management System) and Framework identification**:
+**a.CMS (Content Management System) and Framework identification**:
 
 This tool is designed to help security professionals and ethical hackers identify the CMS and Frameworks used by a website or web application, which can be helpful in identifying potential vulnerabilities and attack vectors.The CMS and Framework identification tool in Kali Linux works by scanning a website or web application and analyzing its source code and HTTP response headers to determine the CMS and Frameworks used.
 
@@ -132,7 +132,7 @@ This tool is designed to help security professionals and ethical hackers identif
 
 ⦁	WPScan is a powerful and versatile tool that can be used by security professionals and ethical hackers to identify and exploit vulnerabilities in WordPress websites, and it is a valuable addition to any security testing toolkit. 
 
-**B.Web Application Proxies** :
+**b.Web Application Proxies** :
 
 The main objective of a web application hacker is to gain deep insight into the inner workings of the application, and this is best accomplished by acting as a man in the middle and intercepting every request and response.
 
@@ -150,7 +150,7 @@ The main objective of a web application hacker is to gain deep insight into the 
 
 ⦁ This allows security testers to analyze and manipulate the application's behavior.
 
-**C.Web crawlers and Directory Brute Force** :
+**c.Web crawlers and Directory Brute Force** :
 
 Web crawling is the process of getting specific information from websites using a bot or automated script. Kali provides the inbuilt applications to perform this activity. The benefit of web crawling is that it lets you import data without having to perform attacks manually, one by one.
 
@@ -268,7 +268,7 @@ This tool is used to attack clients as opposed to the Access Point itself. It ha
 
 ⦁	Spooftooph can be used for various purposes, including testing the security of Bluetooth-enabled devices and networks, bypassing Bluetooth authentication mechanisms, and gaining unauthorized access to Bluetooth devices.
 
-**C.aircrack-ng**:
+**c.aircrack-ng**:
 
 ⦁	Aircrack-ng can be used to capture and analyze network traffic, crack WEP and WPA/WPA2-PSK encryption, and perform other wireless network attacks.
 
@@ -284,7 +284,7 @@ This tool is used to attack clients as opposed to the Access Point itself. It ha
 
 ⦁	The tool can be used for ethical hacking purposes.
 
-**7.Reverse Engineering **:
+**7.Reverse Engineering** :
 
 Reverse engineering can be a useful tool for security researchers, hackers, and developers who want to understand how a particular software or hardware system functions.Kali Linux is a popular operating system used by security professionals and ethical hackers. It comes preloaded with a range of tools and applications that can be used for penetration testing, vulnerability assessment, and digital forensics. One of the tools available in Kali Linux for reverse engineering is Radare2, a powerful disassembler and debugger that can be used to analyze binary files.
 
@@ -346,7 +346,7 @@ It is an OS command Injection and Exploitation Tool used to test web application
 
 ⦁CME can exploit known vulnerabilities in systems.
 
-**B.metasploit framework** :
+**b.metasploit framework** :
 
 ⦁	The Metasploit Framework is an open source penetration testing and development platform.
 
@@ -354,7 +354,7 @@ It is an OS command Injection and Exploitation Tool used to test web application
 
 ⦁	 Metasploit is one of the most commonly used penetration testing tools and comes built-in to Kali Linux.
 
-**C.searchsploit** :
+**c.searchsploit** :
 
 ⦁	SearchSploit is a command-line search tool for Exploit-DB that allows you to take a copy of the Exploit Database with you.
 
