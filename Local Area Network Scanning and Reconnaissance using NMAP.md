@@ -1,3 +1,15 @@
+21CY683 - CYBER SECURITY LAB - II
+
+Name: Surya S Nair 
+Register Number: CB.EN.P2CYS22007 
+ Date: 16th March 2023
+Assignment Topic: Nmap
+
+
+
+
+
+
 **Nmap (Network Mapper)** :
 
 ⦁	Is a footprinting tool or a reconnaissance tool.
