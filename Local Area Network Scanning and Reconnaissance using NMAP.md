@@ -1,6 +1,6 @@
 **21CY683 - CYBER SECURITY LAB - II**
 
-**Name: Surya S Nair
+**Name: Surya S Nair**
 
 **Register Number: CB.EN.P2CYS22007** 
 
