@@ -70,4 +70,9 @@ This will perform an OS detection scan (-O) to determine the operating system ru
 
 h) Explain ping sweeping and Perform ping sweeping using Nmap
   
-  Ans : 
+  Ans : Ping sweeping involves sending ICMP echo requests to a range of IP addresses to determine which ones are active and responsive. To perform ping sweeping using NMAP, you can use the following command: nmap -sn <IP_range>
+For example, to scan the range of IP addresses from 192.168.1.1 to 192.168.1.255, you would use the command:
+nmap -sn 192.168.1.0/24
+This will send ICMP echo requests to all IP addresses in the range, and report back which ones responded.
+  
+  
