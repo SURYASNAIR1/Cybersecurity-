@@ -78,9 +78,6 @@ This will send ICMP echo requests to all IP addresses in the range, and report b
   ![image](https://user-images.githubusercontent.com/123303806/226402749-ece3a90b-d8d7-4818-9b03-28e3adedab0b.png)
 
   1.What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP.
-Ans:A web application firewall (WAF) is a security tool that helps protect web applications by monitoring and filtering HTTP traffic between a web application and the Internet. It is designed to detect and block common web application attacks, such as SQL injection, cross-site scripting (XSS), and others. WAFs can be implemented as hardware appliances, software solutions, or cloud-based services.
-
-  1.What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP.
   
 Ans : A web application firewall (WAF) is a security tool that helps protect web applications by monitoring and filtering HTTP traffic between a web application and the Internet. It is designed to detect and block common web application attacks, such as SQL injection, cross-site scripting (XSS), and others. WAFs can be implemented as hardware appliances, software solutions, or cloud-based services.
 
