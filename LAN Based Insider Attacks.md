@@ -133,7 +133,7 @@ Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables 
   
 Ans: The arp_cop and scan_poisoner plugins are useful tools in Ettercap that can be used to detect ARP Cache Poisoning attacks.
 
-To use the arp_cop plugin, you can follow these steps:
+To use the arp_cop plugin follow these steps:
 
 Open a terminal window and start Ettercap.
 
@@ -163,6 +163,9 @@ Once the scan_poisoner plugin has been enabled, Ettercap will scan the network f
 
 Both the arp_cop and scan_poisoner plugins can be used to detect ARP Cache Poisoning attacks in a LAN environment. However, it is important to note that these plugins are not foolproof and may not detect all attacks. It is still important to take other security measures, such as using encryption and strong passwords, to protect your network.
 
+![5 th 1st](https://user-images.githubusercontent.com/123303806/228022361-06bb71da-c983-4745-96ec-2dd04aa5827b.png)
+
+![5th 2nd 1](https://user-images.githubusercontent.com/123303806/228022475-57ea5ce0-d37e-4aaa-9179-fe1f64d8f611.png)
 
 
   
