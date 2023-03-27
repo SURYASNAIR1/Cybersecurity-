@@ -1,6 +1,6 @@
 *Make use of Ettercap/arpspoof tool to perform ARP Cache Poisoning based attacks in a LAN environment*:
 
-**1.Perform Password stealing (over plaintext) using ARP Cache Poisoning attacks.
+**1.Perform Password stealing (over plaintext) using ARP Cache Poisoning attacks.**
 
 Ans: Arp means Address Resolution Protocol.
 
@@ -49,7 +49,7 @@ Use the stolen credentials to log in to the victim's account.
 ![7](https://user-images.githubusercontent.com/123303806/227959447-b15e798c-a604-4010-b66e-e000deab55b3.png)
 
 
-**2.Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks .
+**2.Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks .**
 
 Ans : ARP Cache Poisoning, also known as ARP Spoofing, is a technique used to intercept network traffic by manipulating the ARP tables of devices on a local network. The attacker can use this technique to redirect traffic to their own machine, allowing them to intercept sensitive information such as passwords and other confidential data.
 
@@ -76,7 +76,7 @@ To perform a DoS attack using ARP Cache Poisoning, you can use Ettercap to flood
 
 ![2nd qz 5th scrnsht](https://user-images.githubusercontent.com/123303806/227955109-0ac16eed-d57c-4c59-bfbd-52ce8e9ed732.jpg)
 
-**3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
+**3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks.**
 
 Ans : DNS Spoofing is a technique used to redirect network traffic from legitimate websites to malicious websites by modifying DNS records. Attackers can use this technique to steal sensitive information such as usernames, passwords, and credit card details. ARP Cache Poisoning can be used to perform DNS Spoofing by redirecting traffic to a machine that is running a fake DNS server.
 
@@ -105,7 +105,7 @@ Once the ARP tables of the target machines have been spoofed, you can use Etterc
   ![3rd qz ans 6th scrnsht](https://user-images.githubusercontent.com/123303806/227955940-06c38057-d07c-4cb9-bf82-934327f6c313.png)
 
 
-**4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.
+**4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.**
   
 Ans: The sslstrip tool is a tool that can be used to perform a man-in-the-middle attack on HTTPS connections by stripping the encryption from the traffic. This allows an attacker to intercept and read sensitive information such as usernames and passwords.
 
@@ -129,7 +129,7 @@ Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables 
 
 ![image](https://user-images.githubusercontent.com/123303806/227994185-2e87c802-9070-4991-9879-546f30a40fea.png)
 
-**5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
+**5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.**
   
 Ans: The arp_cop and scan_poisoner plugins are useful tools in Ettercap that can be used to detect ARP Cache Poisoning attacks.
 
