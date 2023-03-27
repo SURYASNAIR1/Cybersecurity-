@@ -99,7 +99,49 @@ It is important to note that ARP Cache Poisoning and DoS attacks are illegal and
 
 3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
-Ans : ![3rd qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303806/227955769-00fe1328-0243-49da-a9a2-7cdbcf2eeb34.png)
+Ans : DNS Spoofing is a technique used to redirect network traffic from legitimate websites to malicious websites by modifying DNS records. Attackers can use this technique to steal sensitive information such as usernames, passwords, and credit card details. ARP Cache Poisoning can be used to perform DNS Spoofing by redirecting traffic to a machine that is running a fake DNS server.
+
+To perform a DNS Spoofing attack using Ettercap and ARP Cache Poisoning, you can follow these steps:
+
+Install and configure Ettercap on your machine.
+
+Identify the IP addresses of the target machines that you want to attack.
+
+Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
+
+For example, to spoof the ARP table of a target machine with IP address 192.168.1.100, you can use the following command:
+
+
+arpspoof -i <interface> -t 192.168.1.100 <gateway IP>
+Replace <interface> with the name of the network interface that you are using, and <gateway IP> with the IP address of the default gateway on the network.
+
+Set up a fake DNS server on your machine.
+
+To set up a fake DNS server, you can use a tool such as Dnsmasq or bind. These tools allow you to create fake DNS records that redirect traffic from legitimate websites to malicious websites.
+
+Use Ettercap to intercept and modify DNS traffic.
+
+Once the ARP tables of the target machines have been spoofed, you can use Ettercap to intercept and modify DNS traffic. Ettercap provides a wide range of options for intercepting and modifying DNS traffic, including sniffing packets, filtering traffic based on protocol or content, and even injecting packets into the network.
+
+To modify DNS traffic using Ettercap, you can use the following command:
+  
+
+Replace <interface> with the name of the network interface that you are using, <gateway IP> with the IP address of the default gateway on the network, and <target IP> with the IP address of the target machine that you want to attack.
+
+Configure the fake DNS server to redirect traffic.
+
+Once you have intercepted and modified DNS traffic using Ettercap, you need to configure the fake DNS server to redirect traffic from legitimate websites to malicious websites. To do this, you can create fake DNS records that redirect traffic to the IP address of the machine running the fake DNS server.
+
+For example, to create a fake DNS record that redirects traffic from www.google.com to the IP address of the machine running the fake DNS server, you can add the following line to the configuration file of the fake DNS server:
+
+javascript
+Copy code
+address=/www.google.com/<IP address of fake DNS server>
+This will cause all requests for www.google.com to be redirected to the IP address of the machine running the fake DNS server.
+
+
+  
+  ![3rd qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303806/227955769-00fe1328-0243-49da-a9a2-7cdbcf2eeb34.png)
 
   ![3rd qz ans 2nd scrnsht](https://user-images.githubusercontent.com/123303806/227955802-54153ddd-cf2e-4803-bfc6-5da31ae71d5d.png)
 
@@ -113,6 +155,53 @@ Ans : ![3rd qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303
 
 
 4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.
+  
+Ans: The sslstrip tool is a tool that can be used to perform a man-in-the-middle attack on HTTPS connections by stripping the encryption from the traffic. This allows an attacker to intercept and read sensitive information such as usernames and passwords.
+
+To use Ettercap and ARP Cache Poisoning to invoke the sslstrip tool, you can follow these steps:
+
+Install and configure Ettercap on your machine.
+
+Identify the IP addresses of the target machines that you want to attack.
+
+Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
+
+
+  
 5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
-6.Observe the ARP cache table, CAM table, etc., before and after the attack for all the above attacks.
-Run Wireshark and observe the traffic patternsbefore and after the attack
+  
+Ans: The arp_cop and scan_poisoner plugins are useful tools in Ettercap that can be used to detect ARP Cache Poisoning attacks.
+
+To use the arp_cop plugin, you can follow these steps:
+
+Open a terminal window and start Ettercap.
+
+Once Ettercap has started, click on the "Sniff" menu and select "Unified Sniffing".
+
+In the "Unified Sniffing" window, select the network interface that you want to use and click on the "Start" button.
+
+Once the sniffing session has started, click on the "Plugins" menu and select "Manage the plugins".
+
+In the "Manage the plugins" window, select the "arp_cop" plugin and click on the "Enable" button.
+
+Once the arp_cop plugin has been enabled, Ettercap will monitor the network for ARP Cache Poisoning attacks. If an attack is detected, Ettercap will display a warning message.
+
+To use the scan_poisoner plugin, you can follow these steps:
+
+Open a terminal window and start Ettercap.
+
+  Once Ettercap has started, click on the "Sniff" menu and select "Unified Sniffing".
+
+In the "Unified Sniffing" window, select the network interface that you want to use and click on the "Start" button.
+
+Once the sniffing session has started, click on the "Plugins" menu and select "Manage the plugins".
+
+In the "Manage the plugins" window, select the "scan_poisoner" plugin and click on the "Enable" button.
+
+Once the scan_poisoner plugin has been enabled, Ettercap will scan the network for hosts that are sending out ARP packets. If a host is detected that is sending out a large number of ARP packets, Ettercap will display a warning message.
+
+Both the arp_cop and scan_poisoner plugins can be used to detect ARP Cache Poisoning attacks in a LAN environment. However, it is important to note that these plugins are not foolproof and may not detect all attacks. It is still important to take other security measures, such as using encryption and strong passwords, to protect your network.
+
+
+
+  
