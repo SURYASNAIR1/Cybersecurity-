@@ -21,6 +21,24 @@ Use arpspoof to redirect the victim's network traffic to the attacker's machine.
 Use Ettercap to sniff the network traffic and intercept the victim's login credentials.
 Use the stolen credentials to log in to the victim's account.
 
+![5](https://user-images.githubusercontent.com/123303806/227956561-7d00c49d-dacf-4e66-ad62-3ca1a599e7ae.png)
+
+![1st qz ans 1](https://user-images.githubusercontent.com/123303806/227957167-4177ebfd-60d3-4e30-b4c6-9fd8e4f2744b.png)
+
+![6](https://user-images.githubusercontent.com/123303806/227957764-d7138173-5825-4048-ba4a-deed416095b6.png)
+
+![2](https://user-images.githubusercontent.com/123303806/227958119-29e89b78-c97d-42da-a925-ab1e532c2336.png)
+
+![3](https://user-images.githubusercontent.com/123303806/227958447-e2f04cdc-579c-4687-8dec-c0bff5aef82e.png)
+
+![3](https://user-images.githubusercontent.com/123303806/227958594-444c285b-b40c-4e01-87bf-5047103d0c89.png)
+
+![4](https://user-images.githubusercontent.com/123303806/227958971-3d1a9809-5183-4276-b494-df7ef74ccba4.png)
+
+![1](https://user-images.githubusercontent.com/123303806/227959243-995df8f8-478c-4fc4-a20a-d0c6e51629fc.png)
+
+![7](https://user-images.githubusercontent.com/123303806/227959447-b15e798c-a604-4010-b66e-e000deab55b3.png)
+
 
 2.Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks .
 
@@ -81,7 +99,18 @@ It is important to note that ARP Cache Poisoning and DoS attacks are illegal and
 
 3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
-Ans : 
+Ans : ![3rd qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303806/227955769-00fe1328-0243-49da-a9a2-7cdbcf2eeb34.png)
+
+  ![3rd qz ans 2nd scrnsht](https://user-images.githubusercontent.com/123303806/227955802-54153ddd-cf2e-4803-bfc6-5da31ae71d5d.png)
+
+  ![3rd qz ans 3rd scrnsht](https://user-images.githubusercontent.com/123303806/227955833-d725e1d0-7718-40d3-80e0-72bc70a1c79f.png)
+
+  ![3rd qz ans 4th scrnsht](https://user-images.githubusercontent.com/123303806/227955865-c02825d7-f272-4775-851d-eb8eca33d60c.png)
+
+  ![3rd qz ans 5th scrnsht](https://user-images.githubusercontent.com/123303806/227955905-c5e67acb-3de7-45b2-9ed3-5c348384b4db.png)
+
+  ![3rd qz ans 6th scrnsht](https://user-images.githubusercontent.com/123303806/227955940-06c38057-d07c-4cb9-bf82-934327f6c313.png)
+
 
 4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.
 5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
