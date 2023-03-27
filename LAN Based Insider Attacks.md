@@ -54,38 +54,8 @@ Identify the IP addresses of the target machines that you want to attack.
 
 Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
 
-For example, to spoof the ARP table of a target machine with IP address 192.168.1.100, you can use the following command:
-
-csharp
-Copy code
-arpspoof -i <interface> -t 192.168.1.100 <gateway IP>
-Replace <interface> with the name of the network interface that you are using, and <gateway IP> with the IP address of the default gateway on the network.
-
-Use Ettercap to intercept and analyze network traffic.
-
-Once the ARP tables of the target machines have been spoofed, you can use Ettercap to intercept and analyze network traffic. Ettercap provides a wide range of options for analyzing network traffic, including sniffing packets, filtering traffic based on protocol or content, and even injecting packets into the network.
-
 To perform a DoS attack using ARP Cache Poisoning, you can use Ettercap to flood the network with ARP packets. This will cause the ARP tables of all machines on the network to become corrupted, resulting in a DoS attack.
 
-To perform a DoS attack using Ettercap, you can follow these steps:
-
-Launch Ettercap and select the appropriate network interface.
-
-Select the "Mitm" menu and choose the "ARP Poisoning" option.
-
-Enter the IP addresses of the target machines that you want to attack.
-
-Select the "Sniff" menu and choose the "Unified Sniffing" option.
-
-Choose the appropriate options for sniffing network traffic and click the "Start" button.
-
-Select the "Mitm" menu again and choose the "ARP Replay" option.
-
-Choose the appropriate options for ARP replay and click the "Start" button.
-
-This will flood the network with ARP packets, causing the ARP tables of all machines on the network to become corrupted and resulting in a DoS attack.
-
-It is important to note that ARP Cache Poisoning and DoS attacks are illegal and unethical. These techniques should only be used for legitimate purposes, such as testing network security or performing network troubleshooting.
 
 ![2qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303806/227954900-e2a2fef8-d815-445a-8464-a326fd5637c3.png)
 
@@ -109,38 +79,10 @@ Identify the IP addresses of the target machines that you want to attack.
 
 Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
 
-For example, to spoof the ARP table of a target machine with IP address 192.168.1.100, you can use the following command:
-
-
-arpspoof -i <interface> -t 192.168.1.100 <gateway IP>
-Replace <interface> with the name of the network interface that you are using, and <gateway IP> with the IP address of the default gateway on the network.
-
-Set up a fake DNS server on your machine.
-
-To set up a fake DNS server, you can use a tool such as Dnsmasq or bind. These tools allow you to create fake DNS records that redirect traffic from legitimate websites to malicious websites.
-
 Use Ettercap to intercept and modify DNS traffic.
 
 Once the ARP tables of the target machines have been spoofed, you can use Ettercap to intercept and modify DNS traffic. Ettercap provides a wide range of options for intercepting and modifying DNS traffic, including sniffing packets, filtering traffic based on protocol or content, and even injecting packets into the network.
 
-To modify DNS traffic using Ettercap, you can use the following command:
-  
-
-Replace <interface> with the name of the network interface that you are using, <gateway IP> with the IP address of the default gateway on the network, and <target IP> with the IP address of the target machine that you want to attack.
-
-Configure the fake DNS server to redirect traffic.
-
-Once you have intercepted and modified DNS traffic using Ettercap, you need to configure the fake DNS server to redirect traffic from legitimate websites to malicious websites. To do this, you can create fake DNS records that redirect traffic to the IP address of the machine running the fake DNS server.
-
-For example, to create a fake DNS record that redirects traffic from www.google.com to the IP address of the machine running the fake DNS server, you can add the following line to the configuration file of the fake DNS server:
-
-javascript
-Copy code
-address=/www.google.com/<IP address of fake DNS server>
-This will cause all requests for www.google.com to be redirected to the IP address of the machine running the fake DNS server.
-
-
-  
   ![3rd qz ans 1st scrnsht](https://user-images.githubusercontent.com/123303806/227955769-00fe1328-0243-49da-a9a2-7cdbcf2eeb34.png)
 
   ![3rd qz ans 2nd scrnsht](https://user-images.githubusercontent.com/123303806/227955802-54153ddd-cf2e-4803-bfc6-5da31ae71d5d.png)
