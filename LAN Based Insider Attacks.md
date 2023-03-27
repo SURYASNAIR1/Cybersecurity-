@@ -1,16 +1,25 @@
-Make use of Ettercap/arpspoof tool to perform ARP Cache Poisoning based attacks in a LAN environment: 
+*Make use of Ettercap/arpspoof tool to perform ARP Cache Poisoning based attacks in a LAN environment*:
 
-1.Perform Password stealing (over plaintext) using ARP Cache Poisoning attacks.
+**1.Perform Password stealing (over plaintext) using ARP Cache Poisoning attacks.
 
-Ans: Arp means Address Resolution Protocol.ARP Cache Poisoning is a type of attack where an attacker sends fake Address Resolution Protocol messages to a local network.
+Ans: Arp means Address Resolution Protocol.
+
+ARP Cache Poisoning is a type of attack where an attacker sends fake Address Resolution Protocol messages to a local network.
+
 These messages are used to map an IP address to a MAC address in a network.
+
 An attacker can use ARP Cache Poisoning to modify the ARP tables of a victim's computer and redirect its network traffic to the attacker's machine.
+
 In the case of password stealing, the attacker can use ARP Cache Poisoning to intercept the victim's login credentials. 
+
 When a victim tries to log in to a website or service, the victim's computer sends the login credentials over the network in plaintext. 
 The attacker can intercept these plaintext credentials using ARP Cache Poisoning and use them to log in to the victim's account.
+
 Here Iam using ettercap tool to perform ARP poisoning.
+
 Ettercap and arpspoof are two tools commonly used for ARP Cache Poisoning attacks.
 Ettercap is a network security tool that allows the user to sniff and intercept network traffic. 
+
 It can be used to perform ARP Cache Poisoning attacks, and it supports various plugins for password sniffing, including HTTP, FTP, and Telnet.
 Arpspoof is a simple command-line tool that can be used to redirect network traffic to the attacker's machine.
 
@@ -40,7 +49,7 @@ Use the stolen credentials to log in to the victim's account.
 ![7](https://user-images.githubusercontent.com/123303806/227959447-b15e798c-a604-4010-b66e-e000deab55b3.png)
 
 
-2.Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks .
+**2.Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks .
 
 Ans : ARP Cache Poisoning, also known as ARP Spoofing, is a technique used to intercept network traffic by manipulating the ARP tables of devices on a local network. The attacker can use this technique to redirect traffic to their own machine, allowing them to intercept sensitive information such as passwords and other confidential data.
 
@@ -67,7 +76,7 @@ To perform a DoS attack using ARP Cache Poisoning, you can use Ettercap to flood
 
 ![2nd qz 5th scrnsht](https://user-images.githubusercontent.com/123303806/227955109-0ac16eed-d57c-4c59-bfbd-52ce8e9ed732.jpg)
 
-3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
+**3.Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
 Ans : DNS Spoofing is a technique used to redirect network traffic from legitimate websites to malicious websites by modifying DNS records. Attackers can use this technique to steal sensitive information such as usernames, passwords, and credit card details. ARP Cache Poisoning can be used to perform DNS Spoofing by redirecting traffic to a machine that is running a fake DNS server.
 
@@ -96,7 +105,7 @@ Once the ARP tables of the target machines have been spoofed, you can use Etterc
   ![3rd qz ans 6th scrnsht](https://user-images.githubusercontent.com/123303806/227955940-06c38057-d07c-4cb9-bf82-934327f6c313.png)
 
 
-4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.
+**4.Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.
   
 Ans: The sslstrip tool is a tool that can be used to perform a man-in-the-middle attack on HTTPS connections by stripping the encryption from the traffic. This allows an attacker to intercept and read sensitive information such as usernames and passwords.
 
@@ -108,9 +117,19 @@ Identify the IP addresses of the target machines that you want to attack.
 
 Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
 
+![4th qz ans 1 scrnsht](https://user-images.githubusercontent.com/123303806/227992294-e7501e5c-08c7-45e2-8e62-bfbc6108518d.png)
 
-  
-5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
+![4th qz ans 2nd scrnsht](https://user-images.githubusercontent.com/123303806/227992334-371dd6a9-52a4-4082-a3a8-3e9d1efa5587.png)
+
+![4th qz ans 3rd scrnsht](https://user-images.githubusercontent.com/123303806/227992382-14702193-e1c0-4333-a70a-a8800d546964.png)
+
+![4th qz ans 4th scrnsht](https://user-images.githubusercontent.com/123303806/227992418-809264c2-4a92-4039-be11-8a69698475d6.png)
+
+![4th qz ans 5th scrnsht](https://user-images.githubusercontent.com/123303806/227992465-f8118095-6b78-421b-8f1c-fcfbba0dedda.png)
+
+![image](https://user-images.githubusercontent.com/123303806/227994185-2e87c802-9070-4991-9879-546f30a40fea.png)
+
+**5.Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
   
 Ans: The arp_cop and scan_poisoner plugins are useful tools in Ettercap that can be used to detect ARP Cache Poisoning attacks.
 
