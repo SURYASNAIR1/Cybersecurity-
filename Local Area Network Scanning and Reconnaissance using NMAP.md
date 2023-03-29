@@ -38,7 +38,7 @@ To detect if a firewall is protecting the host, you can use the following
 NMAP command:nmap -sA <host_address>
 This will use the "ACK scan" (-sA) option to determine if the host is protected by a firewall that is blocking certain types of traffic.
 
-![image](https://user-images.githubusercontent.com/123303806/226388067-fc959020-dbad-4060-8445-bd80e49b9e8c.png)
+![1](https://user-images.githubusercontent.com/123303806/228598093-1f380727-8e49-4ae7-bd75-028aab7f3b99.png)
 
 
 c) Use the NMAP command to scan a network and determinewhich devices are up and running.
