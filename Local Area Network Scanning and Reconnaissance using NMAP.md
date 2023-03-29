@@ -28,7 +28,7 @@ NMAP command: nmap -sV <subnet_address>/24
 This will scan all the hosts in the subnet, and use the -sV flag to detect the version of the services running on each host.
 The "/24" at the end of the subnet address specifies the subnet mask, indicating that the scan should include all hosts within the same Class C network.
 
-![image](https://user-images.githubusercontent.com/123303806/226387050-79a648db-ff14-4ea4-829a-dbf85fad107b.png)
+![1](https://user-images.githubusercontent.com/123303806/228598887-2432f917-c576-4580-b935-5675fb6892e4.png)
 
 b) What is a firewall andmention its types. Use the NMAP command to detect that a firewall protects the host.
 
@@ -38,7 +38,8 @@ To detect if a firewall is protecting the host, you can use the following
 NMAP command:nmap -sA <host_address>
 This will use the "ACK scan" (-sA) option to determine if the host is protected by a firewall that is blocking certain types of traffic.
 
-![1](https://user-images.githubusercontent.com/123303806/228598093-1f380727-8e49-4ae7-bd75-028aab7f3b99.png)
+![2](https://user-images.githubusercontent.com/123303806/228598974-103d8966-39e5-4e25-959b-2cc9a0db23c1.png)
+
 
 
 c) Use the NMAP command to scan a network and determinewhich devices are up and running.
