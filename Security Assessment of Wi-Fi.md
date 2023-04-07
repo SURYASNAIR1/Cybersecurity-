@@ -1,13 +1,15 @@
-**21CY683 - CYBER SECURITY LAB - V
+**21CY683 - CYBER SECURITY LAB - V**
 
-**Name: Surya S Nair 
+**Name: Surya S Nair**
 
-**Register Number: CB.EN.P2CYS22007 
+**Register Number: CB.EN.P2CYS22007**
 
-**Date: 8th April 2023
+**Date: 8th April 2023**
  
-**Assignment Topic: Security Assessment of Wi-Fi
+**Assignment Topic: Security Assessment of Wi-Fi**
 
+
+Wi-Fi is the most widely used wireless technology that connects devices to the internet or other networks.Wi-Fi networks are susceptible to security vulnerabilities that can lead to data breaches and other security incidents. Therefore, conducting a security assessment of Wi-Fi networks is essential to identify potential vulnerabilities and protect against security threats.
 
 1.Learn the basic working of Wi-Fi and its types with various types of attacks on it. 
 
