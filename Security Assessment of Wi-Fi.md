@@ -74,17 +74,22 @@ Kismet is an open-source tool that can be used for network discovery, packet sni
 
 Ans : Wi-Fi Encryption Standards:
 
-**a.**Wired Equivalent Privacy (WEP)
-**b.**Wi-Fi Protected Access (WPA)
-**c.**Wi-Fi Protected Access II (WPA2)
-**d.**Wi-Fi Protected Access III (WPA3)
+**a.** Wired Equivalent Privacy (WEP)
+
+**b.** Wi-Fi Protected Access (WPA)
+
+**c.** Wi-Fi Protected Access II (WPA2)
+**d.** Wi-Fi Protected Access III (WPA3)
 
 Wi-Fi Security Testing Tools:
 
-**a.**Aircrack-ng: A suite of tools used to assess Wi-Fi network security. It includes packet sniffer, a detector for wireless LANs, WEP and WPA/WPA2-PSK cracker, and an analysis tool for 802.11 wireless LANs.
-**b.**Wifite: An automated tool used to attack multiple wireless networks encrypted with WEP, WPA/WPA2-PSK.
-**c.**Reaver: A tool that cracks WPS (Wi-Fi Protected Setup) keys and allows attackers to gain access to a wireless network using a PIN.
-**d.**Wireshark: A network protocol analyzer that captures network traffic in real-time and displays it in a human-readable format.
+**a.** Aircrack-ng: A suite of tools used to assess Wi-Fi network security. It includes packet sniffer, a detector for wireless LANs, WEP and WPA/WPA2-PSK cracker, and an analysis tool for 802.11 wireless LANs.
+
+**b.** Wifite: An automated tool used to attack multiple wireless networks encrypted with WEP, WPA/WPA2-PSK.
+
+**c.** Reaver: A tool that cracks WPS (Wi-Fi Protected Setup) keys and allows attackers to gain access to a wireless network using a PIN.
+
+**d.** Wireshark: A network protocol analyzer that captures network traffic in real-time and displays it in a human-readable format.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722600-66090f36-daf1-41d8-a22a-6256c0173dd3.png)
 
@@ -112,25 +117,35 @@ susu
 
 
 
-4.After capturing the required filesfortesting, usedictionarygeneration and password cracking tools to crack the Wi-Fi password.
+4.After capturing the required files for testing, use dictionary generation and password cracking tools to crack the Wi-Fi password.
 
-a.You mustuse an existing word file to crack the password.
-
-Ans : 
-
-b.Also you have to create your dictionaryfilefor cracking the passwords.
+a.You must use an existing word file to crack the password.
 
 Ans : 
 
-c.Keep 3 different types of passwordsforyour Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionaryword with some numbers, and complex can be generated from any password generatoronline.
+b.Also you have to create your dictionary file for cracking the passwords.
 
 Ans : 
 
-5.UseRouge AP (WifiPhisher) to create anEvil twin, perform a basic phishing attack using this rouge AP,anddocumentthe difference between the two attacks you have performed.
+c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
 
 Ans : 
 
-6.Learn the protocol level working of WPA3 and how it differsfrom WPA2.
+5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
 
-Ans : 
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230723087-ae336d91-45c5-4b13-92f7-75cddb7bb7dc.png)
 
+
+6.Learn the protocol level working of WPA3 and how it differs from WPA2.
+
+Ans : WPA3 (Wi-Fi Protected Access 3) is the latest security protocol for Wi-Fi networks, designed to improve upon the previous security standard, WPA2.The WPA3 protocol is designed to address the vulnerabilities and shortcomings of WPA2, which had become increasingly susceptible to attacks due to the hacking techniques.
+
+**a.** Stronger Encryption: WPA3 uses the more secure encryption protocol, Simultaneous Authentication of Equals (SAE), which is also known as Dragonfly. SAE uses a stronger Diffie-Hellman key exchange algorithm and provides forward secrecy, which makes it much harder for hackers to intercept and decrypt Wi-Fi traffic.
+
+**b.** Protection Against Offline Attacks: In WPA2, an attacker can capture the Wi-Fi traffic and use offline brute-force techniques to try and guess the Wi-Fi password. WPA3 addresses this vulnerability by implementing a feature called Simultaneous Authentication of Equals (SAE) which uses a key derivation function to protect against offline dictionary attacks.
+
+**c.** Improved Authentication: WPA3 introduces a new feature called Opportunistic Wireless Encryption (OWE), which provides encrypted connections without requiring authentication from users. OWE is designed to provide a more secure connection for public Wi-Fi networks, where it can be difficult to distribute pre-shared keys (PSKs) to users.
+
+**d.** Better Protection Against Password Guessing: WPA3 strengthens the protection against password guessing attacks by implementing a feature called Protected Management Frames (PMF). PMF helps to prevent unauthorized devices from connecting to the network by verifying the authenticity of devices before allowing them to connect.
+
+**e.** Enhanced Protection for IoT Devices: WPA3 also includes a new feature called Wi-Fi Easy Connect, which provides a simpler and more secure method for connecting IoT devices to Wi-Fi networks. Wi-Fi Easy Connect eliminates the need for users to manually enter long and complex passwords by allowing devices to use a QR code to connect to the network.
