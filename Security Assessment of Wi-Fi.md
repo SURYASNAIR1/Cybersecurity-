@@ -147,6 +147,8 @@ Ans : Passwords can be brute-forced but it is probably more efficient to use a d
 
 ![image](https://user-images.githubusercontent.com/123303806/230726014-68f059e4-6df5-47c7-a030-da049df68f63.png)
 
+![WhatsApp Image 2023-04-08 at 21 12 53](https://user-images.githubusercontent.com/123303806/230730329-956b3af7-4d0c-4ed7-8631-13955a78d052.jpg)
+
 ![image](https://user-images.githubusercontent.com/123303806/230726033-8ab72e2a-6143-400a-afe8-5d0a5bbf362b.png)
 
 
