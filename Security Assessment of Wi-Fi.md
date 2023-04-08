@@ -139,6 +139,8 @@ c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,
 
 Ans : Passwords can be brute-forced but it is probably more efficient to use a dictionary. In Kali, wordlists can be found in /usr/share/wordlists. Fasttrack is good for testing weak passwords.
 
+Here I have used an existing word file to crack password.Here we used the command aircrack-ng WPAcrack-03.csv -w fasttrack.txt from this we got the password.
+
 ![image](https://user-images.githubusercontent.com/123303806/230725999-725dd0b4-0da3-42dd-92c7-3b0975df9674.png)
 
 ![image](https://user-images.githubusercontent.com/123303806/230726005-0d4e1a8e-f8bb-4e83-a5ff-a5f10dc1b9ea.png)
@@ -151,7 +153,7 @@ Ans : Passwords can be brute-forced but it is probably more efficient to use a d
 
 ![image](https://user-images.githubusercontent.com/123303806/230726033-8ab72e2a-6143-400a-afe8-5d0a5bbf362b.png)
 
-
+Here we have created a txt file which contains some possible passwords and then we tried to crack it.
 
 5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
 
