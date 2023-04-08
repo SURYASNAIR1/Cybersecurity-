@@ -133,31 +133,25 @@ Aircrack-Ng That Password.
 
 a.You must use an existing word file to crack the password.
 
-Ans : 
-
 b.Also you have to create your dictionary file for cracking the passwords.
-
-Ans : 
 
 c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
 
-Ans : ![image](https://user-images.githubusercontent.com/123303806/230722646-6bff64dc-d387-4102-9618-9c207a40e3f2.png)
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230725999-725dd0b4-0da3-42dd-92c7-3b0975df9674.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
+![image](https://user-images.githubusercontent.com/123303806/230726005-0d4e1a8e-f8bb-4e83-a5ff-a5f10dc1b9ea.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722651-87158f6b-887d-4bcb-89e2-867d0e29e9b4.png)
+![image](https://user-images.githubusercontent.com/123303806/230726022-141044bf-f25b-493b-ad2d-f2d8560b6792.png)
 
-susu
+![image](https://user-images.githubusercontent.com/123303806/230726014-68f059e4-6df5-47c7-a030-da049df68f63.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722707-7a4ea4f3-de1c-44d7-8462-b188c8fe1d7d.png)
+![image](https://user-images.githubusercontent.com/123303806/230726033-8ab72e2a-6143-400a-afe8-5d0a5bbf362b.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722713-a0c7a676-4786-4642-add2-1b0787f761aa.png)
 
 
 5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
 
-Ans : ![image](https://user-images.githubusercontent.com/123303806/230723087-ae336d91-45c5-4b13-92f7-75cddb7bb7dc.png)
-
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230726047-465c2df1-f362-4dbc-b29d-fbd78909faa3.png)
 
 6.Learn the protocol level working of WPA3 and how it differs from WPA2.
 
