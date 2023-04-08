@@ -81,6 +81,36 @@ The sudo kismet -c wlan0 command is a Linux command that launches the Kismet wir
 ![image](https://user-images.githubusercontent.com/123303806/230722288-6d3590b5-efd9-4dd1-bb62-a52050792cab.png)
 
 
+Install Aircrack-ng suite by running the following command in the terminal:
+
+sudo apt-get install aircrack-ng
+
+Put your wireless interface in monitor mode using the following command:
+
+sudo airmon-ng start wlan0
+
+Start scanning for Wi-Fi networks using the following command:
+
+sudo airodump-ng wlan0mon
+
+Once the scan is complete, press CTRL+C to stop the scan.
+
+Use the following command to export the scan results to a CSV file:
+
+sudo airodump-ng -w output --output-format csv wlan0mon
+
+Note: Replace output with the name of the file you want to save the results to.
+
+Use the WiGLE website to upload the CSV file and view the results.
+
+a. Log in to the WiGLE website (https://wigle.net/).
+
+b. Click on the "Upload" button in the top menu bar.
+
+c. Select the CSV file that you exported in step 5.
+
+d. Click on the "Upload" button to upload the file.
+
 3.Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-way handshake using these methods.
 
 Ans : Wi-Fi Encryption Standards:
