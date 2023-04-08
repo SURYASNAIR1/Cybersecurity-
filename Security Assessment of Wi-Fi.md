@@ -137,7 +137,9 @@ b.Also you have to create your dictionary file for cracking the passwords.
 
 c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
 
-Ans : ![image](https://user-images.githubusercontent.com/123303806/230725999-725dd0b4-0da3-42dd-92c7-3b0975df9674.png)
+Ans : Passwords can be brute-forced but it is probably more efficient to use a dictionary. In Kali, wordlists can be found in /usr/share/wordlists. Fasttrack is good for testing weak passwords.
+
+![image](https://user-images.githubusercontent.com/123303806/230725999-725dd0b4-0da3-42dd-92c7-3b0975df9674.png)
 
 ![image](https://user-images.githubusercontent.com/123303806/230726005-0d4e1a8e-f8bb-4e83-a5ff-a5f10dc1b9ea.png)
 
