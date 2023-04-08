@@ -117,8 +117,6 @@ Wi-Fi Security Testing Tools:
 
 ![image](https://user-images.githubusercontent.com/123303806/230722637-e6a505ca-9582-429b-a820-3bf56fad4447.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722646-6bff64dc-d387-4102-9618-9c207a40e3f2.png)
-
 4.After capturing the required files for testing, use dictionary generation and password cracking tools to crack the Wi-Fi password.
 
 a.You must use an existing word file to crack the password.
@@ -131,7 +129,9 @@ Ans :
 
 c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
 
-Ans : ![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230722646-6bff64dc-d387-4102-9618-9c207a40e3f2.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
 
 ![image](https://user-images.githubusercontent.com/123303806/230722651-87158f6b-887d-4bcb-89e2-867d0e29e9b4.png)
 
