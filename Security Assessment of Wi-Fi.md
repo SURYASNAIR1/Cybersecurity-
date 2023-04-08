@@ -46,11 +46,31 @@ Wigile, Inssider, and Kismet are all tools that can be used to perform Wi-Fi fin
 
 Wigile is an open-source tool that can be used to map Wi-Fi networks and their characteristics. It uses a GPS device to collect location information and a wireless adapter to capture information about nearby Wi-Fi networks. Wigile can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
+![image](https://user-images.githubusercontent.com/123303806/230722300-6af031f5-bfe6-421d-90e5-ca152ba3239a.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
+
+
 Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface. Inssider can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
 Kismet is an open-source tool that can be used for network discovery, packet sniffing, and intrusion detection. It can be used to capture and analyze wireless traffic in the area and provide detailed information about nearby Wi-Fi networks. Kismet can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
-3.CreateanAccess pointwith any Wi-Fi encryption standard and start testingthe security of that connectionusing any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-wayhandshake using these methods.
+![image](https://user-images.githubusercontent.com/123303806/230722246-081410e6-010b-4cb2-b450-4ddf6d6c87da.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722254-d2388bf6-9be2-4120-bd4d-684aaffb1ed3.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722259-5c789eed-9b77-4ed6-95c6-254cfc480072.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722282-41d26708-414f-4e1b-aa68-3a9b7204d9bb.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722270-07235d26-7379-4b69-94ae-bfca72f17849.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722288-6d3590b5-efd9-4dd1-bb62-a52050792cab.png)
+
+
+3.Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-wayhandshake using these methods.
 
 Ans : 
 
