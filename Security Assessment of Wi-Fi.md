@@ -105,15 +105,27 @@ Wi-Fi Security Testing Tools:
 
 ![image](https://user-images.githubusercontent.com/123303806/230722594-acf00776-1bd1-4db3-8327-aee0bcc7802b.png)
 
+Putting a wired adapter into promiscuous mode. It allows us to see all of the wireless traffic that passes by us in the air. 
+
 ![image](https://user-images.githubusercontent.com/123303806/230722600-66090f36-daf1-41d8-a22a-6256c0173dd3.png)
 
+ Grab that traffic by simply using the airodump-ng command.
+ 
 ![image](https://user-images.githubusercontent.com/123303806/230722606-ced84e51-8951-4235-9527-8b5b560a45c8.png)
+
+Focus Airodump-Ng on One AP on One Channel.We need the BSSID and channel to do this.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722614-7537c96e-05eb-4465-acd5-e2807a83a2bf.png)
 
+In order to capture the encrypted password, we need to have the client authenticate against the AP. If they're already authenticated, we can de-authenticate them (kick them off) and their system will automatically re-authenticate, whereby we can grab their encrypted password in the process.
+
 ![image](https://user-images.githubusercontent.com/123303806/230725217-f7b6486b-f3de-4ee2-bc11-39920ee36fc9.png)
 
+Capture the Handshake.
+
 ![image](https://user-images.githubusercontent.com/123303806/230722632-09caf9f7-4f1a-4745-9c3d-daa47d4defce.png)
+
+Aircrack-Ng That Password.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722637-e6a505ca-9582-429b-a820-3bf56fad4447.png)
 
