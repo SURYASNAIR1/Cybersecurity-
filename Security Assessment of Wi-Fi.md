@@ -82,7 +82,7 @@ The sudo kismet -c wlan0 command is a Linux command that launches the Kismet wir
 ![image](https://user-images.githubusercontent.com/123303806/230722288-6d3590b5-efd9-4dd1-bb62-a52050792cab.png)
 
 
-3.Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-wayhandshake using these methods.
+3.Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-way handshake using these methods.
 
 Ans : Wi-Fi Encryption Standards:
 
@@ -117,18 +117,6 @@ Wi-Fi Security Testing Tools:
 
 ![image](https://user-images.githubusercontent.com/123303806/230722646-6bff64dc-d387-4102-9618-9c207a40e3f2.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
-
-![image](https://user-images.githubusercontent.com/123303806/230722651-87158f6b-887d-4bcb-89e2-867d0e29e9b4.png)
-
-susu
-
-![image](https://user-images.githubusercontent.com/123303806/230722707-7a4ea4f3-de1c-44d7-8462-b188c8fe1d7d.png)
-
-![image](https://user-images.githubusercontent.com/123303806/230722713-a0c7a676-4786-4642-add2-1b0787f761aa.png)
-
-
-
 4.After capturing the required files for testing, use dictionary generation and password cracking tools to crack the Wi-Fi password.
 
 a.You must use an existing word file to crack the password.
@@ -141,7 +129,16 @@ Ans :
 
 c.Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
 
-Ans : 
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722651-87158f6b-887d-4bcb-89e2-867d0e29e9b4.png)
+
+susu
+
+![image](https://user-images.githubusercontent.com/123303806/230722707-7a4ea4f3-de1c-44d7-8462-b188c8fe1d7d.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722713-a0c7a676-4786-4642-add2-1b0787f761aa.png)
+
 
 5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
 
