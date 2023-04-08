@@ -48,7 +48,11 @@ Wigile is an open-source tool that can be used to map Wi-Fi networks and their c
 
 ![image](https://user-images.githubusercontent.com/123303806/230722300-6af031f5-bfe6-421d-90e5-ca152ba3239a.png)
 
+Aircrack-ng is a set of tools in Kali Linux that can be used to assess Wi-Fi network security. It is capable of monitoring (capturing packets), attacking, and cracking Wi-Fi networks
+
 ![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
+
+Use airodump to capture packet.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
 
