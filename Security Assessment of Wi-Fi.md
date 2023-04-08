@@ -72,7 +72,45 @@ Kismet is an open-source tool that can be used for network discovery, packet sni
 
 3.Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-wayhandshake using these methods.
 
-Ans : 
+Ans : Wi-Fi Encryption Standards:
+
+**a.**Wired Equivalent Privacy (WEP)
+**b.**Wi-Fi Protected Access (WPA)
+**c.**Wi-Fi Protected Access II (WPA2)
+**d.**Wi-Fi Protected Access III (WPA3)
+
+Wi-Fi Security Testing Tools:
+
+**a.**Aircrack-ng: A suite of tools used to assess Wi-Fi network security. It includes packet sniffer, a detector for wireless LANs, WEP and WPA/WPA2-PSK cracker, and an analysis tool for 802.11 wireless LANs.
+**b.**Wifite: An automated tool used to attack multiple wireless networks encrypted with WEP, WPA/WPA2-PSK.
+**c.**Reaver: A tool that cracks WPS (Wi-Fi Protected Setup) keys and allows attackers to gain access to a wireless network using a PIN.
+**d.**Wireshark: A network protocol analyzer that captures network traffic in real-time and displays it in a human-readable format.
+
+![image](https://user-images.githubusercontent.com/123303806/230722600-66090f36-daf1-41d8-a22a-6256c0173dd3.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722594-acf00776-1bd1-4db3-8327-aee0bcc7802b.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722614-7537c96e-05eb-4465-acd5-e2807a83a2bf.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722606-ced84e51-8951-4235-9527-8b5b560a45c8.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722632-09caf9f7-4f1a-4745-9c3d-daa47d4defce.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722637-e6a505ca-9582-429b-a820-3bf56fad4447.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722646-6bff64dc-d387-4102-9618-9c207a40e3f2.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722625-e0933921-5870-443d-b7e8-ae553d47cdcb.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722651-87158f6b-887d-4bcb-89e2-867d0e29e9b4.png)
+
+susu
+
+![image](https://user-images.githubusercontent.com/123303806/230722707-7a4ea4f3-de1c-44d7-8462-b188c8fe1d7d.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722713-a0c7a676-4786-4642-add2-1b0787f761aa.png)
+
+
 
 4.After capturing the required filesfortesting, usedictionarygeneration and password cracking tools to crack the Wi-Fi password.
 
