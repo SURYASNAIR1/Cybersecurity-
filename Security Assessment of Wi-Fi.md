@@ -58,6 +58,9 @@ Use airodump to capture packet.
 
 Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface. Inssider can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
+![WhatsApp Image 2023-04-08 at 22 47 10](https://user-images.githubusercontent.com/123303806/230734422-2d7044d9-f1db-4561-b343-cbd686f295f2.jpg)
+
+
 Kismet is an open-source tool that can be used for network discovery, packet sniffing, and intrusion detection. It can be used to capture and analyze wireless traffic in the area and provide detailed information about nearby Wi-Fi networks. Kismet can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722246-081410e6-010b-4cb2-b450-4ddf6d6c87da.png)
