@@ -40,7 +40,15 @@ Types of Wi-Fi attacks:
 
 2.Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.
 
-Ans : 
+Ans : Wi-Fi fingerprinting is the process of gathering information about the Wi-Fi access points and their characteristics in a particular area. This information includes the Service Set Identifier (SSID), Media Access Control (MAC) address, signal strength, and other parameters that can be used to identify and locate APs. This information can be used for a variety of purposes, such as improving network performance, enhancing security, and location-based services.
+
+Wigile, Inssider, and Kismet are all tools that can be used to perform Wi-Fi fingerprinting.
+
+Wigile is an open-source tool that can be used to map Wi-Fi networks and their characteristics. It uses a GPS device to collect location information and a wireless adapter to capture information about nearby Wi-Fi networks. Wigile can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
+
+Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface. Inssider can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
+
+Kismet is an open-source tool that can be used for network discovery, packet sniffing, and intrusion detection. It can be used to capture and analyze wireless traffic in the area and provide detailed information about nearby Wi-Fi networks. Kismet can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
 3.CreateanAccess pointwith any Wi-Fi encryption standard and start testingthe security of that connectionusing any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-wayhandshake using these methods.
 
