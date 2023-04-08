@@ -63,9 +63,15 @@ Kismet is an open-source tool that can be used for network discovery, packet sni
 
 ![image](https://user-images.githubusercontent.com/123303806/230722246-081410e6-010b-4cb2-b450-4ddf6d6c87da.png)
 
+iwconfig is similar to ifconfig, but is dedicated to wireless networking interfaces.
+
 ![image](https://user-images.githubusercontent.com/123303806/230722254-d2388bf6-9be2-4120-bd4d-684aaffb1ed3.png)
 
+ Display and modify IP Addresses using ip a command.
+
 ![image](https://user-images.githubusercontent.com/123303806/230722259-5c789eed-9b77-4ed6-95c6-254cfc480072.png)
+
+Airmon-ng utility is a command-line tool used to enable monitor mode on wireless interfaces. It can also be used to switch back from Monitor mode to Managed Mode.Monitor Mode allows the wireless adapter to view the traffic on wireless networks.iwconfig is used to set the parameters of the network interface which are specific to the wireless operation.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722282-41d26708-414f-4e1b-aa68-3a9b7204d9bb.png)
 
