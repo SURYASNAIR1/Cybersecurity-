@@ -1,4 +1,6 @@
-
+                                              Security Testing of VPN
+Roll No. :CB.EN.P2CYS22007
+Name : Surya S Nair
 
 
 1.Create anIPsec-basedVPN with the help of the Strongswan tool.
@@ -7,7 +9,7 @@ a.Configure it with IKE version 1, performthe pen-testingprocedures,and make it 
 
 b.Configure your PSK to your own key phrase,then try to crack it offline. Then followthe same by creating a random auto-generatedPSK and try the same. 
 
-
+Ans : Firstly we installed strongswan in both Kali and ubuntu where kali is the Site A and Ubuntu is site B.Then we checked whether its enabled or not.Configure the kernel to enable pcket forwarding for IPV4.Edit the configuration file in both sites A and B.Generate a secure PSK to be used by the peers using the following command.Add the Key to /etc/ipsec.secrets file in both sites.We have to make a copy of the configuration filethen set up the VPN connection on the file.Restart the VPN on both gateways and check the status and  we  have to verify both gateways are connected securely.
 
 
 ![WhatsApp Image 2023-04-23 at 23 08 53](https://user-images.githubusercontent.com/123303806/233855947-5174d01f-65ac-4be8-b0fe-7593f6647e86.jpg)
