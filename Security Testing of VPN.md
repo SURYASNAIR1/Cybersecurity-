@@ -22,6 +22,7 @@ a.Configure it with IKE version 1, performthe pen-testingprocedures,and make it 
 
 ![WhatsApp Image 2023-04-23 at 23 17 02](https://user-images.githubusercontent.com/123303806/233856107-92bade03-7157-4d61-bcb2-7b54938a5b72.jpg)
 
+![WhatsApp Image 2023-04-23 at 23 19 01](https://user-images.githubusercontent.com/123303806/233856205-9d82d397-7236-4970-bf70-b63b13932834.jpg)
 
 
 b.Configure your PSK to your own key phrase,then try to crack it offline. Then followthe same by creating a random auto-generatedPSK and try the same. 
