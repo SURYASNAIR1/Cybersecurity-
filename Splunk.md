@@ -18,6 +18,10 @@ Ans :
 
 ![4](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/8a2a8d5e-2c1a-4e39-9c9a-443a52dbf5b7)
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/d844e5a9-961e-407d-9066-432cd6b03ef3)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/46452f1a-ef55-4657-bd69-b097dad8a4b5)
+
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/bedb58a4-0bd3-459d-9a82-862e583fbb8a)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1ddc5336-59dd-4734-a7f2-c16ee8f2ad11)
