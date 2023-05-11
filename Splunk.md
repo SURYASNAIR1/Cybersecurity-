@@ -32,6 +32,14 @@ Ans :
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/0ee971ec-f5bd-4631-b628-2beb2a288e46)
 
+2.
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/fce1ff0a-5918-4f9c-b205-285434b2c96e)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3f54be9d-f6cc-4127-811d-c583198ff70a)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/32ff0f1b-ba5b-4a65-ac56-e90bd206fefb)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/0c5cb311-4711-40dc-9a26-4ce3e5b4a53c)
 
 
 
