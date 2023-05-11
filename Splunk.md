@@ -32,7 +32,10 @@ Ans :
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/0ee971ec-f5bd-4631-b628-2beb2a288e46)
 
-2.
+2.Run Splunk >> Forwarder can be inthe same system or another system(user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.•Run any network and port scanning commands from the host to the target machine. Run at least 5 to 8 commands. (If required,any tools can also beused).•Use the search section in Splunk to analyze the firewall logs to findthe log of the above process and the exact IP from where the scan was performed. HINT: Use the “stats” command.•Analyze the log file and create an alert for any further similar activities.
+
+Ans : 
+
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/fce1ff0a-5918-4f9c-b205-285434b2c96e)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3f54be9d-f6cc-4127-811d-c583198ff70a)
