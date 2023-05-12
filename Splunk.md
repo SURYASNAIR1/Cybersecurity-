@@ -50,6 +50,7 @@ Ans :
 
 Runned nmap commands.
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ad427adf-7b6f-4963-92ed-4952cefc0788)
 
 
 
