@@ -10,6 +10,18 @@
 
 Ans :
 
+The architecture of Splunk :
+
+**Data Collection**: Splunk collects data from various sources, such as log files, network devices, APIs, and databases. This data can be sourced from both structured and unstructured formats, allowing organizations to gain insights from diverse data sets.
+
+**Splunk Indexer**: The Splunk Indexer is responsible for indexing and storing the collected data. It breaks down the incoming data into events, assigns timestamps, and stores them in an optimized format for efficient searching and retrieval. The Indexer also performs data compression and maintains metadata for quick access.
+
+**Search Head**: The Search Head is the user interface of Splunk. It provides a web-based interface for users to search, analyze, and visualize the indexed data. Users can create search queries, build reports and dashboards, and gain real-time insights from the data.
+
+**Splunk Forwarder**: Splunk Forwarders are lightweight components that collect and forward data to the Splunk Indexer. They can be installed on source systems or dedicated servers, and they securely transmit the data over the network to the Indexer. Forwarders can handle data preprocessing, such as filtering and transforming, before sending it to the Indexer.
+
+**Deployment Options**: Splunk offers flexible deployment options. It can be deployed as a single-instance setup where all components are installed on a single server, or it can be distributed across multiple servers for high availability and scalability. Splunk also supports distributed deployment configurations with multiple Indexers, Search Heads, and Forwarders to handle large-scale data processing.
+
 ![1](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f6e58e07-a8d7-4e79-87d7-ce936260c7c9)
 
 ![2](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f661bbce-3c0e-4f69-bf93-26094b32f4ce)
