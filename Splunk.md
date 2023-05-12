@@ -42,19 +42,13 @@ Ans :
 
 Ans : 
 
-![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/fce1ff0a-5918-4f9c-b205-285434b2c96e)
+![WhatsApp Image 2023-05-11 at 23 03 24](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b893ab35-a5dc-4b49-8e86-033fbfae9f28)
 
-![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3f54be9d-f6cc-4127-811d-c583198ff70a)
+![WhatsApp Image 2023-05-11 at 23 04 00](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b21f2ada-97e0-4a44-b1ba-11ab21b2f97a)
 
-![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/32ff0f1b-ba5b-4a65-ac56-e90bd206fefb)
+![WhatsApp Image 2023-05-11 at 23 05 12](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ea4a04a1-74bf-4a4b-9172-706ea0b69e3d)
 
-![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/0c5cb311-4711-40dc-9a26-4ce3e5b4a53c)
-
-![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b0bda4f4-b35b-49e0-8b08-3be3484aab3a)
-
-
-
-
+Runned nmap commands.
 
 
 
