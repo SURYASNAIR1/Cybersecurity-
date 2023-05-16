@@ -56,7 +56,7 @@ Here the universal forwarder is downloaded in kali linux and then we have forwar
 
 •Analyze the log file and create an alert for any further similar activities.
 
-Ans : 
+Ans : Here we have created scan.log file into the /var/log file .The nmap commands output is saved into the scan.log file by using nmapcommands>>scan.log the nmap commands are nmap -o ,-sV,-A,finding host in subnet is performed. the the logs are forwarded into the enterprise.the name of the log file is used to scan the log of nmap commands are done.
 
 ![WhatsApp Image 2023-05-11 at 23 03 24](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b893ab35-a5dc-4b49-8e86-033fbfae9f28)
 
@@ -68,8 +68,11 @@ Runned nmap commands.
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ad427adf-7b6f-4963-92ed-4952cefc0788)
 
-3.
+3. Run Splunk >> Forwarder can be in the same system or another system (user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise. Perform any communication using unencrypted traffic.Use the Splunk search section to check the firewall logs to analyze which application uses unencrypted data.Analyze the log file and create an alert for any further similar activities.
+
 Ans :
+Here we have entered into the vulnerable website , the logs are saved and then forwarded the log into the splunk enterprise.In the splunk , we have searched query based on access.log.1 and the get request in the search query field,so we obtained the searches in the kali.
+
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b709cf66-3b7b-4981-92a1-17735722ab68)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/5432238d-e93a-4726-86c3-712052667ad8)
@@ -78,8 +81,12 @@ Ans :
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27763e48-7c8b-4fe0-8684-9a298000b838)
 
-5.
-Ans : ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b964cee-48a2-4447-bdf5-9c69047ef920)
+5. Run Splunk >> Forwarder can be in the same system or another system (user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.Logout of the target system and perform multiple failed attempts. Then use the search section to filter out the failed attempt logs. Hint: Use the “stats” command.Analyze the log file and create an alert for any further similar activities.Here we have tried to login into the kali ,then by analysing the log in the splunk forwarder,we can analyse by entering authentication in the query of splunk.
+
+Ans :
+![WhatsApp Image 2023-05-16 at 12 36 47](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/44dbb80c-7a3d-47f6-9320-a755989d9873)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b964cee-48a2-4447-bdf5-9c69047ef920)
 
 
 
