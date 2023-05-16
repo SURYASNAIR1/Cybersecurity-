@@ -22,6 +22,10 @@ The architecture of Splunk :
 
 **Deployment Options**: Splunk offers flexible deployment options. It can be deployed as a single-instance setup where all components are installed on a single server, or it can be distributed across multiple servers for high availability and scalability. Splunk also supports distributed deployment configurations with multiple Indexers, Search Heads, and Forwarders to handle large-scale data processing.
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ab6fccd1-4984-474c-bf92-2ba8e260d978)
+
+Here the universal forwarder is downloaded in kali linux and then we have forwarded log files into the splunk enterprise.
+
 ![1](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f6e58e07-a8d7-4e79-87d7-ce936260c7c9)
 
 ![2](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f661bbce-3c0e-4f69-bf93-26094b32f4ce)
@@ -64,7 +68,18 @@ Runned nmap commands.
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ad427adf-7b6f-4963-92ed-4952cefc0788)
 
+3.
+Ans :
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b709cf66-3b7b-4981-92a1-17735722ab68)
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/5432238d-e93a-4726-86c3-712052667ad8)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/a6df9f68-c2c2-40ef-8bd9-638bc56f9034)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27763e48-7c8b-4fe0-8684-9a298000b838)
+
+5.
+Ans : ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b964cee-48a2-4447-bdf5-9c69047ef920)
 
 
 
