@@ -4,11 +4,11 @@
 
                                                **Investigating with ELK 101**
 
-In this room, we will learn :
+Learning Objectives : 
 
 How to utilize the Kibana interface to search, filter, and create visualizations and dashboards, while investigating VPN logs for anomalies. 
 
-This room also covers a brief overview of Elasticstack components and how they work together.
+ overview of Elasticstack components and how they work together.
 
 **Elastic stack**
 
@@ -46,3 +46,7 @@ Beats is a set of different data shipping agents used to collect data from multi
 Logstash collects data from beats, ports or files, etc., parses/normalizes it into field value pairs, and stores them into elasticsearch.
 Elasticsearch acts as a database used to search and analyze the data.
 Kibana is responsible for displaying and visualizing the data stored in elasticsearch. The data stored in elasticseach can easily be shaped into different visualizations, time charts, infographics, etc., using Kibana.
+
+
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/d4d112cb-70b2-4f22-bf7b-bcbc52271a0c)
