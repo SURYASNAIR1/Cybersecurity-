@@ -55,3 +55,22 @@ Post modules will be useful on the final stage of the penetration testing proces
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/c0207174-0e4f-4a38-9cca-fa7b9d686daf)
 
+
+How many ports are open on the target system?
+
+Ans : 5
+
+![WhatsApp Image 2023-06-06 at 17 36 15](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/201589f4-c54e-4e49-8252-4ee87a9be5b3)
+
+
+Using the relevant scanner, what NetBIOS name can you see?
+
+Ans : ACME IT SUPPORT
+
+
+What is running on port 8000?
+
+webfs/1.21
+What is the "penny" user's SMB password? Use the wordlist mentioned in the previous task.
+
+
