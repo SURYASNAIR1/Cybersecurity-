@@ -51,4 +51,7 @@ Post
 
 Post modules will be useful on the final stage of the penetration testing process listed above, post-exploitation.
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/eaf00e9a-64d6-49ce-b809-ea4986e832f7)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/c0207174-0e4f-4a38-9cca-fa7b9d686daf)
 
