@@ -182,3 +182,7 @@ We can find machines where the installation of specific applications has altered
 ![WhatsApp Image 2023-06-21 at 19 18 03](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e950b0ad-88a0-4694-87da-9ac5554491f9)
 
 ![WhatsApp Image 2023-06-21 at 19 18 50](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b75b9c5-7b49-4181-a6c4-63d2fc0374b7)
+
+![WhatsApp Image 2023-06-21 at 19 20 56](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/a5c3bbab-8533-4630-9853-5c83c7940512)
+
+
