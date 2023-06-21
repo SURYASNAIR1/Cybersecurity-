@@ -130,5 +130,50 @@ Ans : svchost.exe
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3c34ec2f-39da-43c4-8402-2b5d89380dea)
 
-**svchost.exe
+**Phishing Case 3**
+
+
+What is this analysis classified as?
+
+Ans:malicious activity 
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/dd5520ba-f262-4746-baa2-3b5e5fa217b8)
+
+What is the name of the Excel file?
+
+Ans: CBJ200620039539.xlsx
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/fd90b774-8ffe-423c-9f92-3a07b99310c2)
+
+What is the SHA 256 hash for the file?
+
+Ans: 5F94A66E0CE78D17AFC2DD27FC17B44B3FFC13AC5F42D3AD6A5DCFB36715F3EB
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e44a9732-f05c-4a35-ad93-18096ffd735c)
+
+What domains are listed as malicious? Defang the URLs & submit answers in alphabetical order. (answer: URL1,URL2,URL3)
+
+Ans: biz9holdings[.]com,findresults[.]site, ww38[.]findresults[.]site
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e3d06256-e7bf-4d20-832b-03071e88e27e)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3978240a-0418-4573-bfd6-77ccef12e622)
+
+
+What IP addresses are listed as malicious? Defang the IP addresses & submit answers from lowest to highest. (answer: IP1,IP2,IP3)
+
+Ans:204[.]11[.]56[.]48,103[.]224[.]182[.]251,75[.]2[.]11[.]242
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ae50d492-8e7b-47af-9a96-f35514a833fe)
+
+What vulnerability does this malicious attachment attempt to exploit?
+
+Ans: CVE-2017–11882
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/6e15cdbe-fb69-4261-b8aa-81fc2cda2f60)
+
+
+
+
+
 
