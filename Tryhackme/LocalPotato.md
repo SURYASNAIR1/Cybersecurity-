@@ -1,4 +1,4 @@
-**LOCAL POTATO (CVE-2023-21746)**
+                                 <ins>LOCAL POTATO (CVE-2023-21746)</ins>
 
 **INTRODUCTION**
 
