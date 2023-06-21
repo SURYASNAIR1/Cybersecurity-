@@ -1,4 +1,4 @@
-                                 <ins>LOCAL POTATO (CVE-2023-21746)</ins>
+ <u>OCAL POTATO (CVE-2023-21746)
 
 **INTRODUCTION**
 
