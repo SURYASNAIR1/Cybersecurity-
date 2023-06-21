@@ -59,5 +59,37 @@ Ans : Netflix
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/983c0094-802b-40a5-8e67-3aa411226f2b)
 
+What is the From email address?
+
+Ans : JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com
+
 ![Untitled](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e20be4b1-c5a1-432e-aa38-ecb6cfb1f74e)
 
+What is the originating IP? Defang the IP address. 
+
+Ans : I used cyberchef to defang the IP adress
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3da4a130-4a62-41bd-b30b-455a92f1f17c)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27ee1f8e-350e-4f73-8de1-68d0a17ef398)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f90eb1ee-009d-4b3d-b59d-6c78279c35cf)
+
+209[.]85[.]167[.]226
+
+From what you can gather, what do you think will be a domain of interest? Defang the domain.
+
+Ans : Find this information in the Return-path of the mail.Defang it with cyberchef.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/154ebae2-24ad-4dec-a018-4d55c5da5b8e)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/44a98feb-9cac-4f49-9968-82de598f60c1)
+
+
+What is the shortened URL? Defang the URL.
+
+Ans : In the message URLs you have the link.Just defang it with cyberchef.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/23a3abb2-7ff3-47f3-8ac1-8007ae53118d)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b3d208c9-aa15-4ef1-85ab-df2ee47f386b)
