@@ -12,7 +12,7 @@ Once there is flaw in NTLM authentication then local potato will work on any sys
 When there is a flaw in internal authentication, when we run the local potato exploit its going to use a privileged process.
 Privileged process is any process that runs under system user.
 Local potato use a privileged process into launching a session against the available local server.
-Here we are going to take an example of a SMB server.Because SMB serveris the least challenging protocol.
+Here we are going to take an example of a SMB server.Because SMB server is the least challenging protocol.
 We can use SMB,HTTP or DNS,FTP.
 Once this is done the attacker will be able to connect with that server here it is SMB server to list all the shares and have admin privilege.
 
@@ -38,4 +38,7 @@ So storage service by default when it is used or invokedit uses this DLL.
 If that DLL is missing we can write our own DLLand replace it.
 SprintCSP.dll exists under windows/system32 .
 When we invoke storage service it loads that DLL .
-We can replace the old with our w
+
+* Remote Procedural Call Client.exe this will invoke call to the storage service which in turn load the DLL.
+
+**With Local potato we can write files as system we can write our own DLL an then make RPC so when we invoke that service so we invoke SprintCSP.dll .
