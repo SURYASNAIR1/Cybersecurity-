@@ -18,7 +18,7 @@ Once this is done the attacker will be able to connect with that server here it 
 
 Once the vulnerability is exploited the attacker will be able to:
 * Write files as the system user.
-*Read Files as the system user.
+* Read Files as the system user.
 
 Microsoft has released a patch for this vulnerability  by making sure our windows is up to date to avoid being hacked.
 
