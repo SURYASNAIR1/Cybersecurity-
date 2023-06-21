@@ -1,11 +1,11 @@
- <u>OCAL POTATO (CVE-2023-21746)
+**LOCAL POTATO (CVE-2023-21746)**
 
 **INTRODUCTION**
 
 Local potato is one of the very recently disclosed public vulnerabilities. As we can see the identifier CVE 2023.
-It works only on windows.
-This vulnerability exploits a mechanism in NTLM authentication.
-NTLM authentication is used widelyin windows operating systems.  So the major problem lies in NTLM authentication.
+It works only on *windows*.
+This vulnerability exploits a mechanism in *NTLM authentication*.
+NTLM authentication is used widely in windows operating systems.  *So the major problem lies in NTLM authentication*.
 Once there is flaw in NTLM authentication then local potato will work on any system.
 When there is a flaw in internal authentication, when we run the local potato exploit its going to use a privileged process.
 Privileged process is any process that runs under system user.
