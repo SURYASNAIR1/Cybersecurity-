@@ -90,3 +90,95 @@ So here the authentication is done by setting up a Security Context which a set 
 **Task 3** 
 
 **LocalPotato**
+
+Take advantages of flaw in NTLM local authentication.
+This attacker get access to privileges.
+Attacker will start local SMB server authentication.
+SMB means Server Message Block.Is a network file sharing protocol that allows applications on a computer to read or write to files to requires services from server programs in a computer network.
+The attacker ends up having a connection that grants him access to special shares like C$ (Default drive share) or ADMIN$ (Remote admin).
+
+*Process*
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/9c8eea1d-c36b-441a-a98f-cc0314b6f02c)
+
+*The attacker will trigger a privileged process to connect to a rogue server under his control.
+*The rogue server will instantiate a Security Context A for the privileged connection but won't send it back immediately.
+attacker will launch a rogue client that simultaneously initiates a connection against the local SMB Server (Windows File Sharing) with its current unprivileged credentials. The client will send the Type1 message to initiate the connection, and the server will reply by sending a Type2 message with the ID for a new Security Context B.
+*The attacker will swap the Context IDs from both connections so that the privileged process receives the context of the SMB server connection instead of its own. As a result, the Privileged client will associate its user (SYSTEM) with Security Context B of the SMB connection created by the attacker. As a result, the attacker's client can now access any network share with SYSTEM privileges.
+
+By having a privileged connection to SMB shares, the attacker can read or write files to the target machine in any location. 
+
+**Task 4**
+
+**Abusing StorSvc to Execute Commands**
+
+Attacker would need to write DLL into systems path to trigger it.
+By default ,windows PATH will only include directories that only privileged accounts can write.
+We can find machines where the installation of specific applications has altered the PATH variable and made the machine vulnerable.
+
+**TASK 5**
+
+**Elevating Your Privileges**
+
+
+**WHAT I DID**
+
+* By opening the attack box I can see a folder named Tools .
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/7f277955-0514-46c6-aa4d-2c1d40120a36)
+
+*Open the main.c in notepad.And change how the DLL works.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/24a09ae9-7a81-44b0-bfe5-eb6ccae27c12)
+
+* The below line says the the command prompt will run execute whoami and then store the output under program data under whoami.txt.
+
+![WhatsApp Image 2023-06-21 at 18 32 16](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/541343b2-bf67-420e-bbc7-d1df836a5f23)
+
+* Add the existing user into administratory group .The username is userSo in a set of issuing whoami we're going to actually  add the user into administrator group thus elevating the privileges.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/063780fa-6948-4839-a9f2-547f71e60819)
+
+* Changes are made in the Create process area then save it.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/677472d8-0547-4a72-a76a-8b38cac18fa5)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/60c8455d-d308-434b-b00e-03900a049d3e)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b7ca890b-f644-4b62-b74a-d98446bff363)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27fa0144-b876-4c58-8f33-b9529ebe0a2e)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4e55021f-7ed7-4ba4-a843-477caecc2042)
+
+![WhatsApp Image 2023-06-21 at 18 58 26](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e579cfd2-a9ff-4127-833f-dcc27af14e4a)
+
+![WhatsApp Image 2023-06-21 at 18 59 14](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/9649de36-5397-4c94-917c-d8e795ae92d3)
+
+![WhatsApp Image 2023-06-21 at 19 00 13](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2d655ad2-0f17-486b-afd7-299386b93013)
+
+![WhatsApp Image 2023-06-21 at 19 01 04](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/26e2a970-53e3-4906-9d71-10140ca21f1c)
+
+![WhatsApp Image 2023-06-21 at 19 02 10](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4ffa982d-96dc-4880-adcd-855306a0c93c)
+
+![WhatsApp Image 2023-06-21 at 19 03 39](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f26853e3-4ae1-431c-a4e3-479cf0e2b141)
+
+![WhatsApp Image 2023-06-21 at 19 04 40](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e386dd37-3772-4ea3-90cb-6822ffc58e72)
+
+![WhatsApp Image 2023-06-21 at 19 06 25](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/968e9990-7c6a-4cd6-b6c2-a41942a1d5b6)
+
+![WhatsApp Image 2023-06-21 at 19 06 25](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/19566817-90eb-4b74-9326-77f54c6b5613)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/bcb80910-3703-4b32-9bad-942a0e212ddc)
+
+![WhatsApp Image 2023-06-21 at 19 12 49](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/dd8a74dd-187a-477b-a942-63157745ac86)
+
+![WhatsApp Image 2023-06-21 at 19 12 49](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b978a346-3ba2-402a-a988-3b23a48841a5)
+
+![WhatsApp Image 2023-06-21 at 19 15 08](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ddb0641f-ae2b-426b-8d86-7002ab2a0ff7)
+
+![WhatsApp Image 2023-06-21 at 19 15 57](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/29292c48-20d9-4d89-830d-187333f37456)
+
+![WhatsApp Image 2023-06-21 at 19 18 03](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e950b0ad-88a0-4694-87da-9ac5554491f9)
+
+![WhatsApp Image 2023-06-21 at 19 18 50](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b75b9c5-7b49-4181-a6c4-63d2fc0374b7)
