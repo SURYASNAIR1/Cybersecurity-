@@ -50,3 +50,20 @@ When we invoke storage service it loads that DLL .
 
 *With Local potato we can write files as system we can write our own DLL an then make RPC so when we invoke that service so we invoke SprintCSP.dll.*
 
+**NTLM Authentication**
+
+NTLM : New Technology LAN Manager
+Is a suite of Microsoft security protocols intended to provide authentication , Integrity and Confidentiality to users.
+NTLM is more secure and requires multiple exchange  between client and server.
+The usual case of NTLM authentication involves a user trying to authenticate to a remote server. Three packets are involved in the authentication process:
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/d77d0bc7-4c03-45b4-914b-4f3eeea90d83)
+
+*Type 1 Message: The client sends a packet to negotiate the terms of the authentication.
+The packet contains the name of the client machine and its domain.
+The server receives the packet and can check that authentication was started from a different machine.
+
+*Type 2 Message: The "challenge" is a random number used to authenticate the client without having to pass their credentials through the network.
+
+*Type 3 Message: The client uses the challenge and combines it with the user's password hash to generate a response to the challenge. 
+The server can check if the client knows the correct user's password hash without transferring it through the network. 
