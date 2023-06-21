@@ -1,5 +1,8 @@
 **LOCAL POTATO (CVE-2023-21746)**
 
+
+**TASK 1**
+
 **INTRODUCTION**
 
 Local potato is one of the very recently disclosed public vulnerabilities.
@@ -50,6 +53,8 @@ When we invoke storage service it loads that DLL .
 
 *With Local potato we can write files as system we can write our own DLL an then make RPC so when we invoke that service so we invoke SprintCSP.dll.*
 
+**TASK 2**
+
 **NTLM Authentication**
 
 NTLM : New Technology LAN Manager
@@ -67,3 +72,21 @@ The server receives the packet and can check that authentication was started fro
 
 *Type 3 Message: The client uses the challenge and combines it with the user's password hash to generate a response to the challenge. 
 The server can check if the client knows the correct user's password hash without transferring it through the network. 
+
+**NTLM Local Authentication**
+
+User tries to log into a service running on the same machine. 
+Since both the client and server applications reside on the same machine, there is no need for the challenge-response process.
+So here the authentication is done by setting up a Security Context which a set of security parameters associated with a connection, including the session key and the user whose privileges will be used for the connection.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4c173d2e-5084-47e7-9334-365c02f51dbb)
+
+*Type 1 Message: I f the crdedntial matches then only the process will began.
+
+*Type 2 Message: The server creates a Security Context and sends back its ID to the client in this message. The client can then use the Security Context ID to associate itself with the connection.
+
+*Type 3 Message: If the security context ID success then empty message is send to signal that the local authentication process succeeded.
+
+**Task 3** 
+
+**LocalPotato**
