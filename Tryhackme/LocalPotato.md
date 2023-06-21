@@ -25,20 +25,28 @@ Once the vulnerability is exploited the attacker will be able to:
 Microsoft has released a patch for this vulnerability  by making sure our windows is up to date to avoid being hacked.
 Microsoft released a fix for the vulnerability in the January 2023 patch Tuesday.
 
-so we can accomplish with local potato **we can have write or read privileges on the system it means we can resize the files and we can write the files**.
+so we can accomplish with local potato *we can have write or read privileges on the system it means we can resize the files and we can write the files*.
 
 **Storsvc and DLL Hijacking**
 
-Exploiting the storage services by DLL Hijacking.
+Storsvc is the storage service .
+Is a windows storage service which provide service for storage settings and extern extension storage .  
+DLL means Dynamic Link Library is the library that contain code and data that can be used by more than one program at the same time.
+
+
+*Exploiting the storage services by DLL Hijacking.*
+
 What we can do here : We can edit or we can create our own DLL then given that  with local potato we can write files as system .We can write DLL or modify an existing DLL then achieve remote code execution through StorSvc and DLL Hijacking.
+
 We need 2 items to make this work :
 * We need a DLL name SprintCSP.dll .
 This DLL is very much needed if we want to make calls to or by using the storage service.
-So storage service by default when it is used or invokedit uses this DLL.
-If that DLL is missing we can write our own DLLand replace it.
+So storage service by default when it is used or invoked it uses this DLL.
+If that DLL is missing we can write our own DLL and replace it.
 SprintCSP.dll exists under windows/system32 .
 When we invoke storage service it loads that DLL .
 
 * Remote Procedural Call Client.exe this will invoke call to the storage service which in turn load the DLL.
 
-**With Local potato we can write files as system we can write our own DLL an then make RPC so when we invoke that service so we invoke SprintCSP.dll .
+*With Local potato we can write files as system we can write our own DLL an then make RPC so when we invoke that service so we invoke SprintCSP.dll.*
+
