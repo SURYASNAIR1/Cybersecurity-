@@ -19,7 +19,7 @@
 *Individual security researcher nao_sec found this vulnerability.
 He checked the virus Total where one of the file was uploaded.This Vulnerability existed long year back but nobody detected it .
 
-**Working and Flow of Follena Vulnerability**
+**Working and Flow of Follina Vulnerability**
 
 1. A Microsoft Office.DOC file crafted by an attacker is sent to a target.
 2. The word document contain some link of HTML file.
@@ -37,5 +37,9 @@ So whatever is present in that link is going to execute.
 5. Depending on the coed executed on the targeted system,the attacker might facilitate further compromise or take control of the affected system.
 
 **Exploit of Follina MSDT Vulnerability**
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/202e895a-26a4-4ebb-9698-cb793fbf5cb7)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2426c195-58f4-4d9e-9bb2-3e82ee6527d1)
 
 **Detection and Mitigation**
