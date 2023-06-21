@@ -35,3 +35,7 @@ But here it is redirecting or we can say calling this msdt.exe.
 So whatever is present in that link is going to execute.
 
 5. Depending on the coed executed on the targeted system,the attacker might facilitate further compromise or take control of the affected system.
+
+**Exploit of Follina MSDT Vulnerability**
+
+**Detection and Mitigation**
