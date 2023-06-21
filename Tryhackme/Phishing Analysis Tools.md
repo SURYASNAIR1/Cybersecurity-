@@ -93,3 +93,42 @@ Ans : In the message URLs you have the link.Just defang it with cyberchef.
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/23a3abb2-7ff3-47f3-8ac1-8007ae53118d)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b3d208c9-aa15-4ef1-85ab-df2ee47f386b)
+
+**phishing Case 2**
+
+What does AnyRun classify this email as?
+
+Ans: On the right of anyrun it's written as Suspicious activity.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f60db480-2ef4-4b4f-82c0-130ab36947c6)
+
+What is the name of the PDF file?
+
+Ans: payment-updateid.pdf
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/bc7b5994-4f5a-4fdd-ae49-e8cc240d157b)
+
+What is the SHA 256 hash for the PDF file?
+
+Ans: cc6f1a04b10bcb168aeec8d870b97bd7c20fc161e8310b5bce1af8ed420e2c24
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/8960b4cb-d01a-4825-9ef6-ddf27d452e47)
+
+What two IP addresses are classified as malicious? Defang the IP addresses. (answer: IP_ADDR,IP_ADDR)
+
+Ans: 2[.]16[.]107[.]24,2[.]16[.]107[.]83
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/40791a23-b440-4bf3-a96e-a1f443f68915)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2af4a689-9bfa-43f6-a21c-ff03dca65066)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e585ddf0-1489-4f74-a224-9b06529ab76e)
+
+What Windows process was flagged as Potentially Bad Traffic?
+
+Ans : svchost.exe
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3c34ec2f-39da-43c4-8402-2b5d89380dea)
+
+**svchost.exe
+
