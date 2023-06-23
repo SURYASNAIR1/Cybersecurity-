@@ -161,6 +161,8 @@ Here we  are going to compile SprintCSP.sln file .
 
 ![WhatsApp Image 2023-06-21 at 18 59 14](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/9649de36-5397-4c94-917c-d8e795ae92d3)
 
+Thus we will be having a new directory created x64.
+
 ![WhatsApp Image 2023-06-21 at 19 00 13](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2d655ad2-0f17-486b-afd7-299386b93013)
 
 ![WhatsApp Image 2023-06-21 at 19 01 04](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/26e2a970-53e3-4906-9d71-10140ca21f1c)
