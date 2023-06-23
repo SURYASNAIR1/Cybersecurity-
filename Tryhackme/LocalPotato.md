@@ -135,11 +135,13 @@ We can find machines where the installation of specific applications has altered
 
 ![WhatsApp Image 2023-06-21 at 18 32 16](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/541343b2-bf67-420e-bbc7-d1df836a5f23)
 
-* Add the existing user into administratory group .The username is userSo in a set of issuing whoami we're going to actually  add the user into administrator group thus elevating the privileges.
+* Add the existing user into administratory group .The username is user .So in a set of issuing whoami we're going to actually  add the user into administrator group thus elevating the privileges.
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/063780fa-6948-4839-a9f2-547f71e60819)
 
 * Changes are made in the Create process area then save it.
+  
+ ![WhatsApp Image 2023-06-23 at 06 17 58](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2127e628-4a7c-42fb-ad6b-b83fd4acb8a0)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/677472d8-0547-4a72-a76a-8b38cac18fa5)
 
@@ -193,15 +195,20 @@ Then we are going to move  SprintCSP.dll to desktop.
 
 We are going to make use of local potato exploit to move the dll SprintCSP.dll into the location windows system32 using a privileged process.
 
+We modified the dll to add the user to the admin user group therefore successfully elevating the privileges.
+
 ![WhatsApp Image 2023-06-21 at 19 18 50](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1b75b9c5-7b49-4181-a6c4-63d2fc0374b7)
+
+Then we need to launch Remote Procedural Call so as to make a code to invoke the storage service which inturn will load that dll.
 
 ![WhatsApp Image 2023-06-21 at 19 20 56](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/a5c3bbab-8533-4630-9853-5c83c7940512)
 
 
 ![WhatsApp Image 2023-06-21 at 19 25 55](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/7ea942d6-3795-437e-8c41-1066ebe4b73e)
 
-
 ![WhatsApp Image 2023-06-21 at 19 27 49](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/8cffa3e0-8f69-4a30-b633-f0845ba65754)
+
+Thus we can see user is a part of administrators group.
 
 **Task 6**
 
