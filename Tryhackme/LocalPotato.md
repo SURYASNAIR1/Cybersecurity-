@@ -149,6 +149,10 @@ We can find machines where the installation of specific applications has altered
 
 Here we have main.c 
 
+![WhatsApp Image 2023-06-23 at 05 47 26](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1ddb8812-77c8-4ac9-a11b-76a5d5f837eb)
+
+Here we  are going to compile SprintCSP.sln file .
+
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27fa0144-b876-4c58-8f33-b9529ebe0a2e)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4e55021f-7ed7-4ba4-a843-477caecc2042)
