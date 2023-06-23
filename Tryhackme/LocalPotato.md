@@ -169,6 +169,8 @@ Thus we will be having a new directory created x64.
 
 ![WhatsApp Image 2023-06-21 at 19 02 10](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4ffa982d-96dc-4880-adcd-855306a0c93c)
 
+Then we are going to move  SprintCSP.dll to desktop.
+
 ![WhatsApp Image 2023-06-21 at 19 03 39](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f26853e3-4ae1-431c-a4e3-479cf0e2b141)
 
 ![WhatsApp Image 2023-06-21 at 19 04 40](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e386dd37-3772-4ea3-90cb-6822ffc58e72)
