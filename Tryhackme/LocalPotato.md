@@ -145,9 +145,9 @@ We can find machines where the installation of specific applications has altered
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/60c8455d-d308-434b-b00e-03900a049d3e)
 
-Here we have main.c 
-
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/b7ca890b-f644-4b62-b74a-d98446bff363)
+
+Here we have main.c 
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/27fa0144-b876-4c58-8f33-b9529ebe0a2e)
 
