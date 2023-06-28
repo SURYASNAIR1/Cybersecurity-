@@ -22,3 +22,28 @@ Ans: Active Directory
 Q: The server in charge of running the Active Directory services is called…
 
 Ans:Domain Controller
+
+**Task 3 : Active Directory**
+
+1. The Active Directory Domain Service (AD DS) is the core of a Windows Domain, functioning as a catalog that stores information about all objects in the network.
+2. AD supports various types of objects, including users, groups, machines, printers, shares, and more.
+3. Users are one of the most common object types in Active Directory and are considered security principals.
+4. Users can be authenticated by the domain and assigned privileges over network resources like files or printers.
+5. Security principals are objects that can act upon network resources.
+6. Users in Active Directory can represent two types of entities: people (such as employees) and services (used by applications like IIS or MSSQL).
+7. Service users are different from regular users as they have privileges specific to running their respective services.
+
+Q: Which group normally administrates all computers and resources in a domain?
+
+Ans :Domain Admins
+
+Q: What would be the name of the machine account associated with a machine named TOM-PC?
+
+Ans : TOM-PC$
+
+Suppose our company creates a new department for Quality Assurance. What type of containers should we use to group all Quality Assurance users so that policies can be applied consistently to them?
+
+Ans : Organizational Units.
+
+**Task 4: Managing Users in AD**
+
