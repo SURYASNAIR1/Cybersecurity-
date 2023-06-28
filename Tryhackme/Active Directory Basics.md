@@ -57,6 +57,10 @@ Ans : Organizational Units.
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e8748cdd-1d49-442f-9829-8b5e712abae3)
 
-Delegation 
+**Delegation**
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1c7117a5-918c-4cca-b384-668704d6a6af)
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e3a0960f-550f-4a66-8928-409d301b1f81)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2c63a917-ec5a-4954-94ca-a56f4a94841c)
