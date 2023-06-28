@@ -33,9 +33,17 @@ Ans:Domain Controller
 6. Users in Active Directory can represent two types of entities: people (such as employees) and services (used by applications like IIS or MSSQL).
 7. Service users are different from regular users as they have privileges specific to running their respective services.
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/437870ba-3aa5-4519-b796-fdd74edf7d11)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/3c19c0ae-54d9-45b6-b32e-3709314e59a7)
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/9570235e-ea38-4624-a49b-51d4582bab69)
+
 Q: Which group normally administrates all computers and resources in a domain?
 
 Ans :Domain Admins
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/f37abdf9-b2f6-4636-82ef-646144471561)
 
 Q: What would be the name of the machine account associated with a machine named TOM-PC?
 
@@ -46,4 +54,9 @@ Suppose our company creates a new department for Quality Assurance. What type of
 Ans : Organizational Units.
 
 **Task 4: Managing Users in AD**
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e8748cdd-1d49-442f-9829-8b5e712abae3)
+
+Delegation 
+
 
