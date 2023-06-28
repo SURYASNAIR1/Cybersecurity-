@@ -64,3 +64,20 @@ Ans : Organizational Units.
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e3a0960f-550f-4a66-8928-409d301b1f81)
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/2c63a917-ec5a-4954-94ca-a56f4a94841c)
+
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/4f1ae61f-ca36-4b62-864f-97b77d54cb31)
+
+Q : What was the flag found on Sophie's desktop?
+
+Ans : THM{thanks_for_contacting_support}
+
+Enter account of sophie with new password.
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e0942f40-1cea-4e5e-b638-19a0de884a36)
+
+Q : The process of granting privileges to a user over some OU or other AD Object is called...
+
+Ans : Delegation
+
+
