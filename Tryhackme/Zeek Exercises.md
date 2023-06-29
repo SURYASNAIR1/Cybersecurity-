@@ -70,3 +70,40 @@ Q: Investigate the malicious .exe file in VirusTotal. What is the contacted doma
 A: hopto[.]org
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/40bf2d29-8d8c-43ce-871e-719f14d3fbed)
+
+Q: Investigate the http.log file. What is the request name of the downloaded malicious .exe file?
+
+A: knr.exe
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/dd1c1ac5-a2d3-4484-9ac0-f1693c98e35b)
+
+**Task 4  Log4J**
+
+Q: Investigate the log4shell.pcapng file with detection-log4j.zeek script. Investigate the signature.log file. What is the number of signature hits?
+
+A: 3
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/e39706a5-799a-479a-82b3-41c91bd311b3)
+
+Q: Investigate the http.log file. Which tool is used for scanning?
+
+A: nmap
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/a92bc35d-67af-4a19-8f25-8922dfaf6cb4)
+
+Q: Investigate the http.log file. What is the extension of the exploit file?
+
+A: .class
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/ba98db16-6c6b-4ee2-a18e-ebae087f4c0f)
+
+Q: Investigate the log4j.log file. Decode the base64 commands. What is the name of the created file?
+
+A: pwned
+
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/1fe8cb3c-438b-4a1d-bbc6-042ebf595fa2)
+
+**Task 5  Conclusion**
+
+Read and performed the task above.
+
