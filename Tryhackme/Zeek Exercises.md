@@ -11,6 +11,8 @@ Ans: 320
 
 ![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/5a6aa79e-ea76-407c-b695-25980708d6ff)
 
+![image](https://github.com/SURYASNAIR1/Cybersecurity-/assets/123303806/bf6b217b-a882-4d18-9f10-1b950ec1b67b)
+
 Q: Investigate the conn.log file. What is the longest connection duration?
 
 A:
