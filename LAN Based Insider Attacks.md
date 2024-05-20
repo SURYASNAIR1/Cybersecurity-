@@ -2,8 +2,6 @@
 
 **Name: Surya S Nair**
 
-**Register Number: CB.EN.P2CYS22007**
-
 **Date: 27th March 2023**
  
 **Assignment Topic: LAN based insider attacks**
