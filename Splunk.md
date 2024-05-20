@@ -1,7 +1,5 @@
 **Name : SURYA S NAIR**
 
-**Roll Number : CB.EN.P2CYS22007**
-
 **Date : 11th May 2023**
 
 **ASSIGNMENT 6 - Log analysis using SIEM - Splunk**
