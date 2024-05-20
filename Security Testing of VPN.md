@@ -1,8 +1,6 @@
                                               **21CY683 - CYBER SECURITY LAB - IV**
 **Name: Surya S Nair**
 
-**Register Number: CB.EN.P2CYS22007**
-
 **Date: 23th April 2023**
 
 **Assignment Topic: Security Testing of VPN**
